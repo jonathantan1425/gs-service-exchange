@@ -24,7 +24,7 @@ namespace rainbow_unicorn.Controllers
         // Add a new subscription
         [HttpPost]
         [SwaggerOperation("Adds a new subscription for a customer.")]
-        public async Task<ActionResult<List<SolutionCustomer>>> AddBasket(int solutionId, string customerName)
+        public async Task<ActionResult<List<SolutionCustomer>>> AddSubscription(int solutionId, string customerName)
         {
             DateTime datePurchased = DateTime.Now;
             var solutionCustomer = new SolutionCustomer(customerName, solutionId, datePurchased, 0);

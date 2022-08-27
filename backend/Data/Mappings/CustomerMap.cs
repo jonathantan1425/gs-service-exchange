@@ -34,5 +34,10 @@ public class CustomerMap : BaseMap<Customer>
             .HasForeignKey(e=>e.CustomerName)
             .IsRequired();
         
+        builder.HasMany(e => e.CustomerStocks)
+            .WithOne(e => e.Customer)
+            .HasForeignKey(e => e.CustomerName)
+            .IsRequired();
+        
     }
 }

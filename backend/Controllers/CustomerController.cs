@@ -49,5 +49,26 @@ namespace rainbow_unicorn.Controllers
                 return BadRequest("Customer is not subscribed to any solutions.");
             return Ok(solutions);
         }
+        
+        [HttpGet("getStocks/{customerName}")]
+        [SwaggerOperation(Summary = "Get all the stocks that a Customer added to their dashboard.")]
+        public async Task<ActionResult<List<Customer>>> GetStocks(string customerName)
+        {
+            var allRecords = await _context.CustomerStocks
+                .Include(c => c.Stock)
+                .ToListAsync();
+            
+            var filtered = new List<string>();
+            
+            foreach(var record in allRecords)
+            {
+                if (record.CustomerName == customerName)
+                {
+                    filtered.Add(record.Stock.Ticker);
+                }
+            }
+            return Ok(filtered);
+        }
+        
     }
 }

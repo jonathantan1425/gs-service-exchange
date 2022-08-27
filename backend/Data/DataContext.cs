@@ -21,6 +21,7 @@ public class DataContext : DbContext
     
     public DbSet<UserPayment> UserPayments { get; set; }
     public DbSet<UserPurchase> UserPurchases { get; set; }
+    public DbSet<CustomerStock> CustomerStocks { get; set; }
     
 
     protected override void OnModelCreating(ModelBuilder builder)
@@ -50,5 +51,7 @@ public class DataContext : DbContext
         var userPaymentMap = new UserPaymentMap(builder.Entity<UserPayment>());
         builder.Entity<UserPayment>();
         
+        var customerStockMap = new CustomerStockMap(builder.Entity<CustomerStock>());
+        builder.Entity<CustomerStock>();
     }
 }

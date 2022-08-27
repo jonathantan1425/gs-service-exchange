@@ -8,7 +8,7 @@ public class Solution
     {
     }
     
-    public Solution(int solutionId, string solutiontitle, string organisation, string description, DateTime releasedate, int rating, string category)
+    public Solution(int solutionId, string solutiontitle, string organisation, string description, DateTime releasedate, int rating, string category, bool newsolution)
     {
         SolutionId = solutionId;
         SolutionTitle = solutiontitle;
@@ -17,6 +17,7 @@ public class Solution
         ReleaseDate = releasedate;
         Rating = rating;
         Category = category;
+        New = newsolution;
     }
 
     [Key]
@@ -32,6 +33,8 @@ public class Solution
     public int Rating { get; set; }
     
     public string Category { get; set; }
+    
+    public bool New { get; set; }
     
     public ICollection<Feature>? Features { get; set; }
     public ICollection<SolutionCustomer>? SolutionCustomers { get; set; }

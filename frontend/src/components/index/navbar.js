@@ -1,7 +1,19 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 export default function Navbar() {
+
+  const router = useRouter();
+
+  function routeToRegister(){
+    router.push("/register");
+  }
+
+  function routerToLogin(){
+    router.push("/login");
+  }
+
   return (
     <nav className="flex h-20 items-center justify-between px-44 py-4 drop-shadow-md bg-grey_800">
       <div className="flex items-center justify-start">

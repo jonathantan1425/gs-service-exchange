@@ -35,9 +35,7 @@ public class DataSeeder
         var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            float currentClose = float.Parse(item["CurrentClose"]);
-            DateTime lastUpdated = DateTime.Parse(item["LastUpdated"]);
-            var s = new Stock(item["Ticker"], currentClose, lastUpdated, item["Currency"]);
+            var s = new Stock(item["Ticker"], item["stockName"]);
             _db.Stocks.Add(s);
             _db.SaveChanges();
         }
@@ -52,13 +50,15 @@ public class DataSeeder
             int solutionId = int.Parse(item["SolutionId"]);
             int rating = int.Parse(item["Rating"]);
             DateTime releaseDate = DateTime.Parse(item["ReleaseDate"]);
+            bool newsolution = bool.Parse(item["New"]);
             var s = new Solution(solutionId,
                                 item["SolutionTitle"], 
                                 item["Organisation"], 
                                 item["Description"], 
                                 releaseDate, 
                                 rating, 
-                                item["Category"]);
+                                item["Category"],
+                                newsolution);
             _db.Solutions.Add(s);
             _db.SaveChanges();
         }

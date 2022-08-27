@@ -48,3 +48,9 @@ cd deploy
 zip -r ../deploy_bundle.zip *
 eb deploy --staged  # deploy with one line! :)
 ```
+
+## Database commands for CLI
+List DB ``\l``  
+Connect to a DB ```\c testdb;```  
+Show all rows in a table ```SELECT * FROM "<table_name>";```  
+Drop rows in a table ```DELETE FROM "<table_name>";```  

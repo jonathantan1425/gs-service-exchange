@@ -9,8 +9,11 @@ public class StockMap : BaseMap<Stock>
     {
         builder.HasKey(e => e.Ticker);
         builder.Property(e => e.Ticker).IsRequired();
-        builder.Property(e => e.CurrentClose).IsRequired();
-        builder.Property(e => e.LastUpdated).IsRequired();
-        builder.Property(e => e.Currency).IsRequired();
+        builder.Property(e => e.StockName).IsRequired();
+        
+        builder.HasMany(e => e.CustomerStocks)
+            .WithOne(e => e.Stock)
+            .HasForeignKey(e => e.Ticker)
+            .IsRequired();
     }
 }

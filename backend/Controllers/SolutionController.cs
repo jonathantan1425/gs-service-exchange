@@ -46,5 +46,13 @@ namespace rainbow_unicorn.Controllers
             return Ok(solution);
         }
         
+        [HttpGet("AllId")]
+        [SwaggerOperation(Summary = "Returns an array of all solution IDs")]
+        public async Task<ActionResult<List<Solution>>> GetSolutionId()
+        {
+            return Ok(await _context.Solutions
+                .Select(s => s.SolutionId)
+                .ToListAsync());
+        }
     }
 }

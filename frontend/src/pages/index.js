@@ -1,4 +1,5 @@
 import Navbar from "../components/index/navbar";
+import Footer from "../components/index/footer";
 import Hero from "../components/index/hero";
 import Products from "../components/index/products";
 import InstitutionalServices from "../components/index/institutionalServices";
@@ -36,6 +37,7 @@ export default function Home({ marketplaceData }) {
         <InstitutionalServices institutionalData={marketplaceData}/>
         <BankingServices bankingData={marketplaceData}/>
       </div>
+      <Footer/>
     </>
   )
 }

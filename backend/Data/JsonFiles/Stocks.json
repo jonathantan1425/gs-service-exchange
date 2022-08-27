@@ -1,32 +1,22 @@
 [
   {
-    "Ticker": "META",
-    "CurrentClose": "162.75",
-    "LastUpdated": "2022-08-24 22:28:08.693 +0800",
-    "Currency": "USD"
+    "ticker": "META",
+    "stockName": "Meta"
   },
   {
-    "Ticker": "AMZN",
-    "CurrentClose": "133.77",
-    "LastUpdated": "2022-08-24 22:28:08.693 +0800",
-    "Currency": "USD"
+    "ticker": "AMZN",
+    "stockName": "Amazon"
   },
   {
-    "Ticker": "AAPL",
-    "CurrentClose": "166.75",
-    "LastUpdated": "2022-08-24 22:28:08.693 +0800",
-    "Currency": "USD"
+    "ticker": "AAPL",
+    "stockName": "Apple"
   },
   {
-    "Ticker": "NFLX",
-    "CurrentClose": "230.44",
-    "LastUpdated": "2022-08-24 22:28:08.693 +0800",
-    "Currency": "USD"
+    "ticker": "NFLX",
+    "stockName": "Netflix"
   },
   {
-    "Ticker": "GOOGL",
-    "CurrentClose": "114.15",
-    "LastUpdated": "2022-08-24 22:28:08.693 +0800",
-    "Currency": "USD"
+    "ticker": "GOOGL",
+    "stockName": "Google"
   }
 ]

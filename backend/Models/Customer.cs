@@ -31,4 +31,5 @@ public class Customer
     public ICollection<UserPurchase>? UserPurchases { get; set; }
     
     public ICollection<User>? Users { get; set; }
+    public ICollection<CustomerStock>? CustomerStocks { get; set; }
 }

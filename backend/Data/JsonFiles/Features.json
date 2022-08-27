@@ -163,5 +163,20 @@
     "SolutionId": "8",
     "FeatureTitle": "Banking as a Service",
     "Description": "Embed business bank account & payments experiences within your own products. For B2B software companies who want to expand their offering"
+  },
+  {
+    "SolutionId": "14",
+    "FeatureTitle": "Data at a glance",
+    "Description": "Remove the complexity of understanding data, with our dashboard easily access and view your data at a glance."
+  },
+  {
+    "SolutionId": "14",
+    "FeatureTitle": "Personally Curated Data",
+    "Description": "Access institutional grade GS curated financial markets data and news"
+  },
+  {
+    "SolutionId": "14",
+    "FeatureTitle": "All in One",
+    "Description": "An all in one platform to view and make informed decisions"
   }
 ]

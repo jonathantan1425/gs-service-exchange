@@ -6,16 +6,15 @@ public class Stock
     {
     }
 
-    public Stock(string ticker, float currentClose, DateTime lastUpdated, string currency)
+    public Stock(string ticker, string stockName)
     {
         Ticker = ticker;
-        CurrentClose = currentClose;
-        LastUpdated = lastUpdated;
-        Currency = currency;
+        StockName = stockName;
     }
 
     public string Ticker { get; set; } = string.Empty;
-    public float CurrentClose { get; set; }
-    public DateTime LastUpdated { get; set; }
-    public string Currency { get; set; }
+    public string StockName { get; set; }
+    
+    public ICollection<CustomerStock>? CustomerStocks { get; set; }
+    
 }
