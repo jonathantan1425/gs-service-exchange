@@ -1,110 +1,119 @@
 [
- {
-   "SolutionId": "1",
-   "SolutionTitle": "Getting Started",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Learn the basics of our institutional services platform, from registering an application to authentication to your first API call.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "3",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "2",
-   "SolutionTitle": "Data Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Integrate our data and insights into your tools and processes. Access the same high-quality market, execution, and research data trusted by our market professionals, as well as a variety of unique Goldman Sachs content for use in quantitative and data-driven strategies and analytics.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "3",
-   "SolutionTitle": "Portfolio Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Programmatically manage your portfolio lifecycle from creation and update to scheduling reports with full control over visibility and sharing. Automate your portfolio workflow using our APIs — leaving you to focus on the alpha driving decisions.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "3",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "4",
-   "SolutionTitle": "Index Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Access the full range of Goldman Sachs indices and basket products, or create bespoke solutions to tailor your own investment strategies. Design, create, and rebalance fully-customized, ready-to-trade basket solutions to express thematic and risk views.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "5",
-   "SolutionTitle": "Hedging Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Tailor your portfolio exposures and risks using our hedging and optimization tools. Dynamically manage objectives and constraints while controlling for cost and tradability to meet your investment goals.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "4",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "6",
-   "SolutionTitle": "Pricing & Risk Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Leverage our industry-leading models and risk analytics tools to gain a deeper understanding of your portfolio exposures and risks.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "7",
-   "SolutionTitle": "Content Services",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Leverage insights from across Goldman Sachs with client-focused content on equity, fixed income, currency and commodities markets. Clients can access both historical and real-time fundamental insights and analysis.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Institutional Services"
- },
- {
-   "SolutionId": "8",
-   "SolutionTitle": "TxB APIs",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "TxB APIs enable eligible partners and Clients to embed Goldman Sachs Transaction Banking capabilities into their own ecosystem. TxB APIs are based around three functional domains - creating virtual accounts, originating payments, and tracking balances & transaction activity.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "4",
-   "Category": "Banking Services"
- },
- {
-   "SolutionId": "9",
-   "SolutionTitle": "Business Line of Credit",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "The Marcus Business Line of Credit is a flexible financing option offered through lending partners to U.S. small businesses. The product – a revolving line of credit – is designed to help businesses smooth out working capital volatility that can arise from seasonality of demand and uncertainties in the cash conversion cycle.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "4",
-   "Category": "Banking Services"
- },
- {
-   "SolutionId": "10",
-   "SolutionTitle": "GS Quant",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "GS Quant is a Python toolkit for quantitative finance, created on top of one of the world’s most powerful risk transfer platforms. Designed to accelerate development of quantitative trading strategies and risk management solutions, crafted over 25 years of experience navigating global markets.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "4",
-   "Category": "Products and Platforms"
- },
- {
-   "SolutionId": "11",
-   "SolutionTitle": "PlotTool Pro",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "PlotTool gives sophisticated investors unparalleled access to global financial markets. Access a rich set of derivatives data, analytics functions, and bespoke visualizations across asset classes. Understand complex market dynamics, evaluate and share ideas, and backtest trading strategies, all from a single tool.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Products and Platforms"
- },
- {
-   "SolutionId": "12",
-   "SolutionTitle": "Goldman Sachs Design",
-   "Organisation": "Goldman Sachs Financial Cloud",
-   "Description": "Customized for institutional finance, the Goldman Sachs design system is built for creating rich experiences. From color palettes and iconography to writing styles and pattern libraries, our design system is the source of logic for all of our digital products.",
-   "ReleaseDate": "12/25/2015 12:00:00 AM",
-   "Rating": "5",
-   "Category": "Products and Platforms"
- }
+  {
+    "SolutionId": "1",
+    "SolutionTitle": "Getting Started",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Learn the basics of our institutional services platform, from registering an application to authentication to your first API call.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "3",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "2",
+    "SolutionTitle": "Data Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Integrate our data and insights into your tools and processes. Access the same high-quality market, execution, and research data trusted by our market professionals, as well as a variety of unique Goldman Sachs content for use in quantitative and data-driven strategies and analytics.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "3",
+    "SolutionTitle": "Portfolio Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Programmatically manage your portfolio lifecycle from creation and update to scheduling reports with full control over visibility and sharing. Automate your portfolio workflow using our APIs — leaving you to focus on the alpha driving decisions.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "3",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "4",
+    "SolutionTitle": "Index Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Access the full range of Goldman Sachs indices and basket products, or create bespoke solutions to tailor your own investment strategies. Design, create, and rebalance fully-customized, ready-to-trade basket solutions to express thematic and risk views.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "5",
+    "SolutionTitle": "Hedging Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Tailor your portfolio exposures and risks using our hedging and optimization tools. Dynamically manage objectives and constraints while controlling for cost and tradability to meet your investment goals.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "4",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "6",
+    "SolutionTitle": "Pricing & Risk Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Leverage our industry-leading models and risk analytics tools to gain a deeper understanding of your portfolio exposures and risks.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "7",
+    "SolutionTitle": "Content Services",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Leverage insights from across Goldman Sachs with client-focused content on equity, fixed income, currency and commodities markets. Clients can access both historical and real-time fundamental insights and analysis.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Institutional Services"
+  },
+  {
+    "SolutionId": "8",
+    "SolutionTitle": "TxB APIs",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "TxB APIs enable eligible partners and Clients to embed Goldman Sachs Transaction Banking capabilities into their own ecosystem. TxB APIs are based around three functional domains - creating virtual accounts, originating payments, and tracking balances & transaction activity.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "4",
+    "Category": "Banking Services"
+  },
+  {
+    "SolutionId": "9",
+    "SolutionTitle": "Business Line of Credit",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "The Marcus Business Line of Credit is a flexible financing option offered through lending partners to U.S. small businesses. The product – a revolving line of credit – is designed to help businesses smooth out working capital volatility that can arise from seasonality of demand and uncertainties in the cash conversion cycle.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "4",
+    "Category": "Banking Services"
+  },
+  {
+    "SolutionId": "10",
+    "SolutionTitle": "GS Quant",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "GS Quant is a Python toolkit for quantitative finance, created on top of one of the world’s most powerful risk transfer platforms. Designed to accelerate development of quantitative trading strategies and risk management solutions, crafted over 25 years of experience navigating global markets.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "4",
+    "Category": "Products and Platforms"
+  },
+  {
+    "SolutionId": "11",
+    "SolutionTitle": "PlotTool Pro",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "PlotTool gives sophisticated investors unparalleled access to global financial markets. Access a rich set of derivatives data, analytics functions, and bespoke visualizations across asset classes. Understand complex market dynamics, evaluate and share ideas, and backtest trading strategies, all from a single tool.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Products and Platforms"
+  },
+  {
+    "SolutionId": "12",
+    "SolutionTitle": "Goldman Sachs Design",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Customized for institutional finance, the Goldman Sachs design system is built for creating rich experiences. From color palettes and iconography to writing styles and pattern libraries, our design system is the source of logic for all of our digital products.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Products and Platforms"
+  },
+  {
+    "SolutionId": "13",
+    "SolutionTitle": "Buy Now Pay Later",
+    "Organisation": "Goldman Sachs Financial Cloud",
+    "Description": "Buy Now, Pay Later (BNPL) scheme is a method of payment which allows consumers to pay for their purchases in short instalment periods without any interest charges or fees.",
+    "ReleaseDate": "12/25/2015 12:00:00 AM",
+    "Rating": "5",
+    "Category": "Credit Lending"
+  }
 ]
